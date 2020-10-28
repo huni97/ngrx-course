@@ -45,11 +45,11 @@ export class LoginComponent implements OnInit {
             
             console.log(user);
 
-            const newLoginAction = AuthActions.login({user});
+            // const newLoginAction = AuthActions.login({user});
 
-            console.log('NewLogin Action:', newLoginAction);
+            // console.log('NewLogin Action:', newLoginAction);
 
-            debugger;
+            // debugger;
 
             this.store.dispatch(AuthActions.login({user}));
 
